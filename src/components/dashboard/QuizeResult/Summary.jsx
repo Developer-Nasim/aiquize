@@ -1,8 +1,7 @@
 import WinImg from "../../../assets/imgs/win.png"
 import style from './style.module.css'
 
-export default function Summary({data}) {
-    console.log(data)
+export default function Summary({data}) { 
     // selected
     let arrayOfObjects = data;
 

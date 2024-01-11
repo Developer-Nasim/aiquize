@@ -43,8 +43,7 @@ export default function CreateModal({showHide}) {
 
 
 
-            } catch (err) {
-                console.log(err) 
+            } catch (err) { 
                 setCreating(false)
                 setError(true)
             }
