@@ -1,0 +1,16 @@
+.not_found {
+    display: block;
+    padding: 30px;
+    background: var(--redSoft);
+    border-radius: 10px;
+}
+
+.not_found h1 {
+    color: var(--red);
+    margin-bottom: 0;
+}
+
+.not_found p {
+    display: block;
+    margin-bottom: 25px;
+}

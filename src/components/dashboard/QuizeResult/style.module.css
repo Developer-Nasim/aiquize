@@ -1,0 +1,12 @@
+.result_summary {
+    text-align: center;
+    padding: 30px;
+    background: #edf9ee;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.result_summary > img {
+    display: block;
+    margin: auto;
+}

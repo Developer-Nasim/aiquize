@@ -1,0 +1,23 @@
+.BlockWithImg {
+    display: flex;
+    border: 1px solid var(--darkBoarder);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.BlockWithImg_content {
+    padding: 30px;
+    width: 65%;
+}
+
+.BlockWithImg_img {
+    overflow: hidden;
+    width: 36%;
+}
+
+.BlockWithImg_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

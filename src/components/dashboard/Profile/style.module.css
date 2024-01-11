@@ -1,0 +1,117 @@
+.ProfileCart {
+    background: var(--greenSoft2);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+.ProfileCart  img {
+    max-width: 100px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 5px 10px #fff9;
+}
+.ProfileCart h5 {
+    display: block;
+    margin: 0;
+}
+
+.ProfileCart > button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.create_quizes{
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    background: var(--greenSoft2);
+    margin-bottom: 20px;
+}
+.all_quizes{
+    border: 1px solid var(--darkBoarder);
+    border-radius: 10px;
+}
+.all_quizes h3 {
+    text-align: center;
+    border-bottom: 1px solid var(--darkBoarder);
+    line-height: 1;
+    padding: 15px;
+}
+
+.single_quize {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid var(--darkBoarder);
+}
+
+.all_quizes > button {
+    display: block;
+    margin: 15px auto;
+}
+
+
+
+.create_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000ab;
+}
+.modal_content {
+    background: var(--white);
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    min-width: 700px;
+}
+
+.modal_content > span {
+    padding: 5px 11px;
+    background: var(--red);
+    display: block;
+    width: max-content;
+    font-weight: 500;
+    color: var(--white);
+    margin-left: auto;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.modal_content textarea {
+    background: var(--greenSoft2);
+    margin-top: 15px;
+}
+.modal_content > i{
+    display: block;
+    font-size: 80%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.basic_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
