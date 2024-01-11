@@ -21,3 +21,13 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media screen and (max-width: 991px) {
+    .BlockWithImg { 
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .BlockWithImg_img,.BlockWithImg_content { 
+        width: 100%; 
+    }
+}

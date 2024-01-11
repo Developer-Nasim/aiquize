@@ -6,8 +6,7 @@ import TimeConvert from '../../../Helpers/TimeConvert';
   
 
 export default function AllQuizes() {
-    const {quize} = useLocalQuize()
-    console.log('yess',quize)
+    const {quize} = useLocalQuize() 
     return (
         <> 
             <div className={style.all_quizes}>

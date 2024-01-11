@@ -10,3 +10,8 @@
     display: block;
     margin: auto;
 }
+@media screen and (max-width: 767px) {
+    .result_summary{
+        margin-top: 30px;
+    }
+}

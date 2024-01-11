@@ -122,6 +122,6 @@ label.answer span{
   color: var(--white);
 
 }
-header ul li a.active{
+header ul li a.active,.mobilemenu ul li a.active{
   color: var(--green);
 }

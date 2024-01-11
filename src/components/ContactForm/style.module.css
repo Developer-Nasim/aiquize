@@ -10,3 +10,16 @@
 .contact_wrp p {
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 767px) {
+    .contact_wrp {
+        margin: 40px 0;
+        padding: 20px; 
+    }
+    .contact_wrp h2 {
+        font-size: 2rem;
+    }
+    .contact_wrp p {
+        margin-bottom: 20px;
+    }
+}

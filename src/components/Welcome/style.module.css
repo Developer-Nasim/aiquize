@@ -29,3 +29,18 @@
     font-weight: 500;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:767px) {
+    .welcome h2 { 
+        font-size: 40px; 
+        line-height: 42px;
+    }
+    .welcome h1 { 
+        font-size: 54px; 
+    }
+    .welcome p { 
+        max-width: 100%; 
+    }
+
+
+}

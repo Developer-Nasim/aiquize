@@ -6,10 +6,10 @@ export default function Dashboard() {
         <section className="dashboard_section mt-5 mb-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-md-4">
                         <ProfileCart/>
                     </div>
-                    <div className="col-lg-8">
+                    <div className="col-md-8">
                         <Outlet/>
                     </div>
                 </div>
