@@ -7,9 +7,11 @@ export default function Welcome() {
                 <div className="row">
                     <div className="col-lg-10 offset-lg-1"> 
                         <div className={style.welcome_wrp}>
-                            <h1>AiQuize</h1>
+                            <h1>AiQuiz</h1>
                             <h2>Test your knowledge</h2>
-                            <p>If you are a persona who wanna check there own general knowledge then it’s perfect platform you.</p>
+                            <p>
+                                If you are taking preparation for an interview or you are learning something new and you wanna test your knowledge then you can take some quiz test here for free. 
+                            </p>
                             <Button txt="Start Free" to="profile" />
                         </div>
                     </div> 

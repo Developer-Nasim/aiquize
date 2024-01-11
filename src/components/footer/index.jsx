@@ -4,16 +4,9 @@ export default function Footer() {
         <footer className={style.footer}>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-12 text-center">
                         <p>© All right reserved</p>
-                    </div>
-                    <div className="col-lg-8">
-                        <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Policy</a></li>
-                            <li><a href="#">Privacy</a></li>
-                        </ul>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </footer>
