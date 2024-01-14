@@ -3,7 +3,7 @@ import Logo from '../../assets/imgs/logo.png'
 import Button from '../SingleComponents/Button'
 import style from './style.module.css' 
 import { useAuth } from '../../Contexts/Auth'
-import { useState } from 'react'
+import { useState } from 'react' 
 
 // Li & A
 const Li_a = ({to,children,...rest}) => {
@@ -11,10 +11,10 @@ const Li_a = ({to,children,...rest}) => {
 }
 
 
-export default function Header() {
+export default function Header() { 
 
     const {currentUser} = useAuth()
-    const [showMenu,setShowMenu] = useState(false)
+    const [showMenu,setShowMenu] = useState(false) 
 
 
     const HeaderNav = (
@@ -48,8 +48,11 @@ export default function Header() {
                                 window.screen.width > 767 ?
                                 HeaderNav
                             : 
-                                <div className={`${style.humberger_menu} ${style.btn2} ${showMenu ? style.open : ""}`} data-menu="2" onClick={() => setShowMenu(!showMenu)}>
-                                    <div className={style.icon}></div>
+                                <div className={style.header_action}>
+                                    {currentUser && <Link className={style.avatar} to={'/profile'}><img src={currentUser.photoURL} alt='' /> </Link>}
+                                    <div className={`${style.humberger_menu} ${style.btn2} ${showMenu ? style.open : ""}`} data-menu="2" onClick={() => setShowMenu(!showMenu)}>
+                                        <div className={style.icon}></div>
+                                    </div>
                                 </div>
                             }
                         </div>
